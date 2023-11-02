@@ -15,6 +15,7 @@ body {
 
 .header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: white;
     background-color: #782221;
@@ -27,7 +28,7 @@ body {
 }
 
 .identification {
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -38,3 +39,25 @@ body {
     padding: 10px;
 }
 
+.name {
+    text-transform: uppercase;
+}
+
+.name, .profession {
+    font-family: 'Lato';
+}
+
+address {
+    background-color: #2c1d27;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address_item {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: smaller;
+    width: 300px;
+}

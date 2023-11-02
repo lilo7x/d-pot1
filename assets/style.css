@@ -7,3 +7,34 @@
 .title {
     font-family: 'Lato', sans-serif;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #782221;
+    width: 1160px;
+}
+
+.profile_pic {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.identification {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.id_item {
+    padding: 10px;
+}
+

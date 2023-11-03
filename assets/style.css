@@ -4,6 +4,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .title {
     font-family: 'Lato', sans-serif;
 }
@@ -11,6 +15,9 @@
 body {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    width: 1160px;
+    margin: auto;
 }
 
 .header {
@@ -41,10 +48,16 @@ body {
 
 .name {
     text-transform: uppercase;
+    font-size: 35px;
+}
+
+.profession {
+    font-size: 20px;
 }
 
 .name, .profession {
     font-family: 'Lato';
+    font-weight: 200;
 }
 
 address {
@@ -61,3 +74,41 @@ address {
     font-size: smaller;
     width: 300px;
 }
+
+.aside_title {
+    background-color: #dbc2a4;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.aside_item {
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+#lorem {
+    padding-left: 20px;
+    text-indent: 30px;
+}
+
+/**premier aside item différencié avec l'ID "lorem" et un padding different des 2 ul <li> dessous pour pouvoir aligner avec les 
+bullets des ul <li> et non le texte**/
+
+aside {
+    width: 30%;
+    background-color: #782221;
+}
+
+.aside_elem1 {
+    padding-top: 20px;
+}
+
+.aside_element {
+    padding-right: 20px;
+}
+
+

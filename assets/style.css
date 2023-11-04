@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(./fonts/Raleway-Regular.woff) format('woff'), url(./fonts/Raleway-Bold.woff) format('woff'), url(./fonts/Raleway-Italic.woff) format('woff');
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -6,6 +11,11 @@
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
 }
 
 .title {
@@ -32,6 +42,11 @@ body {
 .profile_pic {
     width: 200px;
     border-radius: 50%;
+    filter: drop-shadow(1px 1px 5px white);
+}
+
+.profile_pic:hover {
+    cursor: zoom-in;
 }
 
 .identification {
@@ -157,6 +172,10 @@ aside {
     border-radius: 5px;
 }
 
+.png_item:hover {
+    opacity: .7;
+}
+
 .footer {
     background-color: #782221;
     display: flex;
@@ -167,4 +186,8 @@ aside {
 .update {
     font-size: 13px;
     color: white;
+}
+
+.item_hover:hover , .main_sub_item .li_skill:hover {
+    border-right: #782221 solid 3px;
 }

@@ -109,6 +109,11 @@ aside {
 
 .aside_element {
     padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+.aside_item {
+    margin-top: 10px;
 }
 
 .main {
@@ -143,4 +148,23 @@ aside {
 
 .sub_title {
     margin-top: 20px;
+}
+
+.png_item {
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #782221;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.update {
+    font-size: 13px;
+    color: white;
 }

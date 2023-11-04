@@ -111,4 +111,36 @@ aside {
     padding-right: 20px;
 }
 
+.main {
+    display: flex;
+}
 
+.main_item {
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.cv_core {
+    width: 70%;
+    border-right: #2c1d27 3px solid;
+}
+
+.main_title {
+    background-color: #dbc2a4;
+    color: black;
+    border-left: #782221 solid 7px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.main_item {
+    margin: 20px;
+}
+
+.main_sub_item ul, p, h5 {
+    margin: 10px;
+}
+
+.sub_title {
+    margin-top: 20px;
+}

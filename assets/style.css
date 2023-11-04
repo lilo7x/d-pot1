@@ -7,6 +7,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    font-size: 18px;
 }
 
 a {
@@ -63,11 +64,11 @@ body {
 
 .name {
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 2rem;
 }
 
 .profession {
-    font-size: 20px;
+    font-size: 1.4rem;
 }
 
 .name, .profession {
@@ -101,7 +102,7 @@ address {
 .aside_item {
     color: white;
     padding: 10px;
-    font-size: 15px;
+    font-size: 1rem;
     padding-left: 40px;
 }
 
@@ -149,7 +150,7 @@ aside {
     background-color: #dbc2a4;
     color: black;
     border-left: #782221 solid 7px;
-    font-size: 20px;
+    font-size: 1.5rem;
     padding: 5px;
 }
 
@@ -184,8 +185,9 @@ aside {
 }
 
 .update {
-    font-size: 13px;
+    font-size: 1rem;
     color: white;
+    margin: 20px;
 }
 
 .item_hover:hover , .main_sub_item .li_skill:hover {
